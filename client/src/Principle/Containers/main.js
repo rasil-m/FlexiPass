@@ -1,0 +1,6 @@
+export {default as Dashboard} from './Dashboard/Dashboard'
+export {default as Delete} from './Delete/Delete'
+export {default as Registration} from './Registrations/Registration'
+export {default as Settings} from './Settings/Settings'
+export {default as Check_status} from './Status/Status'
+export {default as Update} from './Update/Update'

@@ -1,0 +1,75 @@
+.__status h1
+{
+    margin: 4rem 0;
+    color:var(--t_color);
+    font-weight: 555;
+}
+.__status div
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 100vh;
+}
+
+.__status div input
+{
+    padding: 20px 40px;
+    outline: none;
+    border: 1px solid var(--t_color);
+    border-radius: 4px;
+    width: 250px;
+}
+.__status div i
+{
+    font-size: 1.5rem;
+}
+.__status div p span
+{
+    margin-left:1.5rem;
+}
+
+.__studentList
+{
+    width: 100%;
+    padding: 100px 0 50px 0;
+    display: flex;
+    flex-direction:column;
+    gap: 3rem;
+}
+
+.__studentList .__list
+{
+    width: 100%;
+    height: 180px;
+    background: var(--green);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.__studentList .__list img
+{
+    width: 110px;
+    height: 110px;
+    border-radius: 10rem;
+}
+.__studentList .__list h2
+{
+    font-weight: 444;
+    color: #fff;
+    font-size: 20px;
+}
+.__studentList .__list p
+{
+    font-size: 0.9rem;
+    display: flex;
+    gap: 8px;
+    color: #fff;
+    align-items: center;
+}
+.__studentList .__list p i
+{
+    color: rgba(241, 18, 18, 0.741);
+    font-size:1rem;
+}

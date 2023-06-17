@@ -1,0 +1,84 @@
+.__register
+{
+    width: 100%;
+    height: 100%;
+}
+.__register h1
+{
+    text-align: center;
+    margin: 4rem 0;
+    font-weight: 555;
+}
+.__register form
+{
+    width: 400px;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    -webkit-box-shadow: -5px 9px 50px 0px rgba(225,225,225,1);
+    -moz-box-shadow: -5px 9px 50px 0px rgba(225,225,225,1);
+    box-shadow: -5px 9px 50px 0px rgba(225,225,225,1);
+    border-radius: 10px;
+    padding: 25px;
+}
+.__register form label
+{
+    display: flex;
+    justify-content: space-around;
+}
+.__register form input[type="email"],.__register form input[type="text"],.__register form input[type="password"]
+ {
+    outline: 0;
+    padding: 20px 30px;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+ }
+ .__register form input[type="radio"]
+  {
+    accent-color: var(--green);
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+  }
+  .__register form button
+  {
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    outline: 0;
+    border: 0;
+    background: var(--green);
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .__register .login
+   {
+    position: absolute;
+    float: right;
+    right: 3rem;
+   }
+   .__register .login a
+   {
+    text-decoration: none;
+    color: #000;
+    padding: 15px 25px;
+    background: transparent;
+    border: 1px solid var(--green);
+    border-radius: 10px;
+    margin-left: 1rem;
+   }
+   .__register form .match
+   {
+    font-size: 14px;
+    color: #ff0000;
+    text-align: center;
+   }
+   .__register form select
+   {
+    outline: 0;
+    border: 1px solid var(--green);
+    padding: 20px;
+    border-radius: 10px;
+   }
